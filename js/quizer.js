@@ -341,27 +341,187 @@ function load(){
 }
 
 // EN songs
+const en_2010_f_icon = [
+	'pop'
+];
 
+const EN_2010_F_PACK_1 = 1;
 
+let en_2010_f = [
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Adele',
+		song : "Hello"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Lady Gaga',
+		song : "Born This Way"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Lady Gaga',
+		song : "Rain On Me (ft. Ariane Grande)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Katy Perry',
+		song : "Firework"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Katy Perry',
+		song : "Last Friday Night"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Katy Perry',
+		song : "Roar"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Rihanna',
+		song : "Rude Boy"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Rihanna',
+		song : "Only Girl"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Rihanna',
+		song : "Diamonds"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Adele',
+		song : "Someone Like You"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Adele',
+		song : "Skyfall"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Taylor Swift',
+		song : "Shake It Off"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Taylor Swift',
+		song : "Blank Space"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Ariana Grande',
+		song : "thank u, next"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Ariana Grande',
+		song : "7 rings"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Ariana Grande',
+		song : "Positions"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Lady Gaga',
+		song : "Always Remember Us This Way"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Sia',
+		song : "Chandlier (2014)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Sia',
+		song : "Cheap Thrills (2016)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Selena Gomez',
+		song : "Wolves (ft Marshmello)(2017)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Selena Gomez',
+		song : "Lose You To Love Me (2019)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Nicki Minaj',
+		song : "Anaconda (2014)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Nicki Minaj',
+		song : "Bang Bang (ft Jessie J, Ariana Grande) (2014)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Miley Cyrus',
+		song : "We Can't Stop (2013)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Miley Cyrus',
+		song : "Wrecking Ball (2013)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Billie Eilish',
+		song : "Wish You Were Gay (2019)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Billie Eilish',
+		song : "Bad Guy (2020)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Dua Lipa',
+		song : "New Rules (2017)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Dua Lipa',
+		song : "Blow Your Mind(Mwah) (2016)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Taylor Swift',
+		song : "Wildest Dreams (2015)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Lana Del Rey',
+		song : "Video Games (2011)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Lana Del Rey',
+		song : "Diet Mountain Dew (2011)"
+	}
+];
+
+let en_2010_f_1 =	en_2010_f.filter(item => item.pack == 1);
 
 let music = [
 	{
-		arr: en_2000_m,
+		arr: en_2010_f,
 		lang: 'en',
-		year: '2000',
-		type: 'm',
+		year: '2010',
+		type: 'f',
 		packs: [
 				{
-					arr: en_2000_m_1,
-					name: 'EN 2000s Male: Pop',
-				},
-				{
-					arr: en_2000_m_2,
-					name: 'EN 2000s Male: Dj',
-				},
-				{
-					arr: en_2000_m_3,
-					name: 'EN 2000s Male: Rap',
+					arr: en_2010_f_1,
+					name: 'EN 2010s Female: Pop',
 				}
 			]
 	}
@@ -688,14 +848,14 @@ let generateImgPath;
 
 function setup(){
 	lang = 'en';
-	year = '2000';
-	artist_type = 'm';
+	year = '2010';
+	artist_type = 'f';
 	back = back_to_packages;
 	modeToggle = toggleArtist;
 	setMedia = setAudio;
 	rightAnswer = rightAnswer_RU;
 	count_time();
-	package_names = en_2000_gr_icon;
+	package_names = en_2010_f_icon;
 	show_packages(package_names.length);
 	document.body.scrollTop = document.documentElement.scrollTop = 0;
 }
