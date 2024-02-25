@@ -721,7 +721,6 @@ function show_packages(num){
 function package_num(num){
 	$('#current_pack').show();
 	$('#current_pack').attr('src', $('#package_' + num).attr('src'));
-	back = back_to_packages;
 	$('.package').hide();
 	setPathsByPack(num);
 	showGroupNames();
@@ -834,14 +833,6 @@ function generateSongIds(arr){
 	return arr;
 }
 
-function back_to_packages(){
-	$('#back').hide();
-	$('#current_pack').hide();
-	$('#package_content').hide();
-	toggleLearn();
-	setup();
-}
-
 let back;
 let expressMode = false;
 let generateSongs;
@@ -853,7 +844,6 @@ function setup(){
 	lang = 'en';
 	year = '2010';
 	artist_type = 'f';
-	back = back_to_packages;
 	modeToggle = toggleArtist;
 	setMedia = setAudio;
 	rightAnswer = rightAnswer_RU;
