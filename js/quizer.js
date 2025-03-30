@@ -508,6 +508,11 @@ let en_2010_f = [
 		pack : EN_2010_F_PACK_1,
 		group : 'Lana Del Rey',
 		song : "Diet Mountain Dew (2011)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Dua Lipa',
+		song : "Be the One (2015)"
 	}
 ];
 
