@@ -352,87 +352,87 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Adele',
-		song : "Hello"
+		song : "Hello (2015)"
 	},
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Lady Gaga',
-		song : "Born This Way"
+		song : "Born This Way (2011)"
 	},
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Lady Gaga',
-		song : "Rain On Me (ft. Ariane Grande)"
+		song : "Rain On Me (ft. Ariane Grande) (2020)"
 	},
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Katy Perry',
-		song : "Firework"
+		song : "Firework (2010)"
 	},
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Katy Perry',
-		song : "Last Friday Night"
+		song : "Last Friday Night (2011)"
 	},
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Katy Perry',
-		song : "Roar"
+		song : "Roar (2013)"
 	},
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Rihanna',
-		song : "Rude Boy"
+		song : "Rude Boy (2010)"
 	},
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Rihanna',
-		song : "Only Girl"
+		song : "Only Girl (2010)"
 	},
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Rihanna',
-		song : "Diamonds"
+		song : "Diamonds (2012)"
 	},
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Adele',
-		song : "Someone Like You"
+		song : "Someone Like You (2012)"
 	},
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Adele',
-		song : "Skyfall"
+		song : "Skyfall (2012)"
 	},
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Taylor Swift',
-		song : "Shake It Off"
+		song : "Shake It Off (2014)"
 	},
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Taylor Swift',
-		song : "Blank Space"
+		song : "Blank Space (2014)"
 	},
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Ariana Grande',
-		song : "thank u, next"
+		song : "thank u, next (2018)"
 	},
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Ariana Grande',
-		song : "7 rings"
+		song : "7 rings (2019)"
 	},
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Ariana Grande',
-		song : "Positions"
+		song : "Positions (2020)"
 	},
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Lady Gaga',
-		song : "Always Remember Us This Way"
+		song : "Always Remember Us This Way (2018)"
 	},
 	{
 		pack : EN_2010_F_PACK_1,
@@ -556,8 +556,8 @@ let en_2010_f = [
 	},
 	{
 		pack : EN_2010_F_PACK_1,
-		group : 'Camila Cabello (ft Young Thug)',
-		song : "Havana (2017)"
+		group : 'Camila Cabello',
+		song : "Havana (ft Young Thug) (2017)"
 	},
 	{
 		pack : EN_2010_F_PACK_1,
@@ -567,7 +567,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Carly Rae Jepsen',
-		song : "Cut To The Feeling (2016)"
+		song : "Cut To The Feeling (2016)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_1,
