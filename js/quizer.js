@@ -513,6 +513,136 @@ let en_2010_f = [
 		pack : EN_2010_F_PACK_1,
 		group : 'Dua Lipa',
 		song : "Be the One (2015)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Alex Hepburn',
+		song : "Under (2013)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Ava Max',
+		song : "Not Your Barbie Girl (2019)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Ava Max',
+		song : "So Am I (2019)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Ava Max',
+		song : "Alone Pt. II (ft Alan Walker) (2019)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Bebe Rexha',
+		song : "I Got You (2019)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Bebe Rexha',
+		song : "Self Control (2018)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Birdy',
+		song : "Skinny Love (2011)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Birdy',
+		song : "Wings (2013)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Camila Cabello (ft Young Thug)',
+		song : "Havana (2017)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Carly Rae Jepsen',
+		song : "Call Me Maybe (2011)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Carly Rae Jepsen',
+		song : "Cut To The Feeling (2016)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Carly Rae Jepsen',
+		song : "Drive (2012)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Carly Rae Jepsen',
+		song : "I Really Like You (2015)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Ellie Goulding',
+		song : "Burn (2013)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Ellie Goulding',
+		song : "Love Me Like You Do (2015)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Ellie Goulding',
+		song : "Your Song (2010)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Halsey',
+		song : "Without Me (2018)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Halsey',
+		song : "Bad at Love (2017)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Halsey',
+		song : "Nightmare (2019)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Rita Ora',
+		song : "I Will Never Let You Down (2014)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Rita Ora',
+		song : "Anywhere (2017)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Rita Ora',
+		song : "Let You Love Me (2018)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Nicki Minaj',
+		song : "Starships (2012)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Cardi B',
+		song : "Bodak Yellow (2017)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Cardi B',
+		song : "I Like It (ft Bad Bunny and J Balvin) (2018)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Cardi B',
+		song : "Please Me (2019)"
 	}
 ];
 
