@@ -644,6 +644,21 @@ let en_2010_f = [
 		pack : EN_2010_F_PACK_1,
 		group : 'Cardi B',
 		song : "Please Me (2019)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Doja Cat',
+		song : "Say So (2020)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Doja Cat',
+		song : "Rules (2019)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Doja Cat',
+		song : "So High (2014)"
 	}
 ];
 
