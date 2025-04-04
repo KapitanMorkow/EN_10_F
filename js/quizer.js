@@ -343,10 +343,12 @@ function load(){
 
 // EN songs
 const en_2010_f_icon = [
-	'pop'
+	'older',
+	'younger'
 ];
 
 const EN_2010_F_PACK_1 = 1;
+const EN_2010_F_PACK_2 = 2;
 
 let en_2010_f = [
 	{
@@ -415,17 +417,17 @@ let en_2010_f = [
 		song : "Blank Space (2014)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Ariana Grande',
 		song : "thank u, next (2018)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Ariana Grande',
 		song : "7 rings (2019)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Ariana Grande',
 		song : "Positions (2020)"
 	},
@@ -455,12 +457,12 @@ let en_2010_f = [
 		song : "Lose You To Love Me (2019)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Nicki Minaj',
 		song : "Anaconda (2014)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Nicki Minaj',
 		song : "Bang Bang (ft Jessie J, Ariana Grande) (2014)"
 	},
@@ -475,22 +477,22 @@ let en_2010_f = [
 		song : "Wrecking Ball (2013)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Billie Eilish',
 		song : "Wish You Were Gay (2019)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Billie Eilish',
 		song : "Bad Guy (2020)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Dua Lipa',
 		song : "New Rules (2017)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Dua Lipa',
 		song : "Blow Your Mind(Mwah) (2016)"
 	},
@@ -510,159 +512,160 @@ let en_2010_f = [
 		song : "Diet Mountain Dew (2011)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Dua Lipa',
 		song : "Be the One (2015)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Alex Hepburn',
 		song : "Under (2013)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Ava Max',
 		song : "Not Your Barbie Girl (2019)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Ava Max',
 		song : "So Am I (2019)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Ava Max',
 		song : "Alone Pt. II (ft Alan Walker) (2019)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Bebe Rexha',
 		song : "I Got You (2019)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Bebe Rexha',
 		song : "Self Control (2018)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Birdy',
 		song : "Skinny Love (2011)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Birdy',
 		song : "Wings (2013)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Camila Cabello',
 		song : "Havana (ft Young Thug) (2017)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Carly Rae Jepsen',
 		song : "Call Me Maybe (2011)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Carly Rae Jepsen',
 		song : "Cut To The Feeling (2016)",
 		ignore : true
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Carly Rae Jepsen',
 		song : "Drive (2012)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Carly Rae Jepsen',
 		song : "I Really Like You (2015)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Ellie Goulding',
 		song : "Burn (2013)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Ellie Goulding',
 		song : "Love Me Like You Do (2015)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Ellie Goulding',
 		song : "Your Song (2010)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Halsey',
 		song : "Without Me (2018)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Halsey',
 		song : "Bad at Love (2017)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Halsey',
 		song : "Nightmare (2019)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Rita Ora',
 		song : "I Will Never Let You Down (2014)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Rita Ora',
 		song : "Anywhere (2017)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Rita Ora',
 		song : "Let You Love Me (2018)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Nicki Minaj',
 		song : "Starships (2012)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Cardi B',
 		song : "Bodak Yellow (2017)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Cardi B',
 		song : "I Like It (ft Bad Bunny and J Balvin) (2018)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Cardi B',
 		song : "Please Me (2019)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Doja Cat',
 		song : "Say So (2020)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Doja Cat',
 		song : "Rules (2019)"
 	},
 	{
-		pack : EN_2010_F_PACK_1,
+		pack : EN_2010_F_PACK_2,
 		group : 'Doja Cat',
 		song : "So High (2014)"
 	}
 ];
 
 let en_2010_f_1 =	en_2010_f.filter(item => item.pack == 1);
+let en_2010_f_2 =	en_2010_f.filter(item => item.pack == 2);
 
 let music = [
 	{
@@ -673,7 +676,11 @@ let music = [
 		packs: [
 				{
 					arr: en_2010_f_1,
-					name: 'EN 2010s Female: Pop',
+					name: 'EN 2010s Female: Older',
+				},
+				{
+					arr: en_2010_f_2,
+					name: 'EN 2010s Female: Younger',
 				}
 			]
 	}
