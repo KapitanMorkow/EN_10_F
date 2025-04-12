@@ -661,6 +661,31 @@ let en_2010_f = [
 		pack : EN_2010_F_PACK_2,
 		group : 'Doja Cat',
 		song : "So High (2014)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Camila Cabello',
+		song : "Never Be the Same (2017)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Camila Cabello',
+		song : "Bad Things (ft Machine Gun Kelly) (2016)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Demi Lovato',
+		song : "Sorry Not Sorry (2017)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Demi Lovato',
+		song : "Heart Attack (2013)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Demi Lovato',
+		song : "Cool for the Summer (2015)"
 	}
 ];
 
