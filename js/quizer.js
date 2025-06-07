@@ -345,7 +345,7 @@ function load(){
 const en_2010_f_icon = [
 	'older',
 	'younger',
-	'new'
+	'pop_2'
 ];
 
 const EN_2010_F_PACK_1 = 1;
@@ -718,6 +718,11 @@ let en_2010_f = [
 		pack : EN_2010_F_PACK_3,
 		group : 'Aurora',
 		song : "Into the Unknown (ft Idina Menzel) (2019)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'Kiesza',
+		song : "Hideaway (2014)"
 	}
 ];
 
@@ -739,6 +744,10 @@ let music = [
 				{
 					arr: en_2010_f_2,
 					name: 'EN 2010s Female: Younger',
+				},
+				{
+					arr: en_2010_f_3,
+					name: 'EN 2010s Female: Pop_2',
 				}
 			]
 	}
