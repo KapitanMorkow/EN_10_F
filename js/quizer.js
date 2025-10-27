@@ -344,13 +344,11 @@ function load(){
 // EN songs
 const en_2010_f_icon = [
 	'older',
-	'younger',
-	'pop_2'
+	'younger'
 ];
 
 const EN_2010_F_PACK_1 = 1;
 const EN_2010_F_PACK_2 = 2;
-const EN_2010_F_PACK_3 = 3;
 
 let en_2010_f = [
 	{
@@ -690,45 +688,59 @@ let en_2010_f = [
 		song : "Cool for the Summer (2015)"
 	},
 	{
-		pack : EN_2010_F_PACK_3,
+		pack : EN_2010_F_PACK_2,
 		group : 'Sabrina Carpenter',
 		song : "Thumbs (2017)"
 	},
 	{
-		pack : EN_2010_F_PACK_3,
+		pack : EN_2010_F_PACK_2,
 		group : 'Sabrina Carpenter',
 		song : "Sue Me (2018)"
 	},
 	{
-		pack : EN_2010_F_PACK_3,
+		pack : EN_2010_F_PACK_2,
 		group : 'Sabrina Carpenter',
 		song : "Why (2017)"
 	},
 	{
-		pack : EN_2010_F_PACK_3,
+		pack : EN_2010_F_PACK_2,
 		group : 'Aurora',
 		song : "Runaway (2015)"
 	},
 	{
-		pack : EN_2010_F_PACK_3,
+		pack : EN_2010_F_PACK_2,
 		group : 'Aurora',
 		song : "Running with the Wolves (2015)"
 	},
 	{
-		pack : EN_2010_F_PACK_3,
+		pack : EN_2010_F_PACK_2,
 		group : 'Aurora',
 		song : "Into the Unknown (ft Idina Menzel) (2019)"
 	},
 	{
-		pack : EN_2010_F_PACK_3,
+		pack : EN_2010_F_PACK_2,
 		group : 'Kiesza',
 		song : "Hideaway (2014)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Tove Lo',
+		song : "Habits (Stay High) (2013)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Tove Lo',
+		song : "Talking Body (2015)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Tove Lo',
+		song : "Cool Girl (2016)"
 	}
 ];
 
 let en_2010_f_1 =	en_2010_f.filter(item => item.pack == 1);
 let en_2010_f_2 =	en_2010_f.filter(item => item.pack == 2);
-let en_2010_f_3 =	en_2010_f.filter(item => item.pack == 3);
 
 let music = [
 	{
@@ -744,10 +756,6 @@ let music = [
 				{
 					arr: en_2010_f_2,
 					name: 'EN 2010s Female: Younger',
-				},
-				{
-					arr: en_2010_f_3,
-					name: 'EN 2010s Female: Pop_2',
 				}
 			]
 	}
@@ -767,7 +775,7 @@ function map_songs(){
 		music[j].arr = generateSongIdsWithPrefix(music[j].arr, music[j].lang, 
 												music[j].year, music[j].type);
 	}
-	showMapping(0, "en_2000_gr", "gr");
+	showMapping(0, "en_2010_gr", "gr");
 }
 
 function select_mapping_button(suffix, type){
