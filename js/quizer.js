@@ -464,7 +464,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Nicki Minaj',
-		song : "Bang Bang (ft Jessie J, Ariana Grande) (2014)"
+		song : "Bang Bang (ft Jessie J, Ariana Grande) (2014)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_1,
@@ -736,6 +737,26 @@ let en_2010_f = [
 		pack : EN_2010_F_PACK_2,
 		group : 'Tove Lo',
 		song : "Cool Girl (2016)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Jessie J',
+		song : "Price Tag (ft B.o.B) (2011)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Jessie J',
+		song : "Domino (2011)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Jessie J',
+		song : "Flashlight (2015)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Nicki Minaj',
+		song : "Super Bass (2011)"
 	}
 ];
 
