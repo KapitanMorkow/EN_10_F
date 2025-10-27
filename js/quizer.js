@@ -364,7 +364,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Lady Gaga',
-		song : "Rain On Me (ft. Ariane Grande) (2020)"
+		song : "Rain On Me (ft. Ariane Grande) (2020)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_1,
@@ -429,7 +430,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Ariana Grande',
-		song : "Positions (2020)"
+		song : "Positions (2020)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_1,
@@ -485,7 +487,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Billie Eilish',
-		song : "Bad Guy (2020)"
+		song : "Bad Guy (2020)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_2,
@@ -651,7 +654,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Doja Cat',
-		song : "Say So (2020)"
+		song : "Say So (2020)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_2,
@@ -757,6 +761,31 @@ let en_2010_f = [
 		pack : EN_2010_F_PACK_2,
 		group : 'Nicki Minaj',
 		song : "Super Bass (2011)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Lady Gaga',
+		song : "Bloody Mary (2011)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Ariana Grande',
+		song : "bloodline (2019)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Billie Eilish',
+		song : "idontwannabeyouanymore (2017)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Billie Eilish',
+		song : "all the good girls go to hell (2019)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Doja Cat',
+		song : "Candy (2018)"
 	}
 ];
 
