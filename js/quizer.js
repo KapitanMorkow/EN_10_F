@@ -786,6 +786,21 @@ let en_2010_f = [
 		pack : EN_2010_F_PACK_2,
 		group : 'Doja Cat',
 		song : "Candy (2018)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Iggy Azalea',
+		song : "Black Widow (ft Rita Ora) (2014)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Iggy Azalea',
+		song : "Fancy (ft Charli XCX) (2014)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Iggy Azalea',
+		song : "Team (2016)"
 	}
 ];
 
