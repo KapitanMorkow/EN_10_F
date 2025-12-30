@@ -344,11 +344,13 @@ function load(){
 // EN songs
 const en_2010_f_icon = [
 	'older',
-	'younger'
+	'younger',
+	'pop'
 ];
 
 const EN_2010_F_PACK_1 = 1;
 const EN_2010_F_PACK_2 = 2;
+const EN_2010_F_PACK_3 = 3;
 
 let en_2010_f = [
 	{
@@ -521,7 +523,7 @@ let en_2010_f = [
 		song : "Be the One (2015)"
 	},
 	{
-		pack : EN_2010_F_PACK_2,
+		pack : EN_2010_F_PACK_3,
 		group : 'Alex Hepburn',
 		song : "Under (2013)"
 	},
@@ -723,7 +725,7 @@ let en_2010_f = [
 		song : "Into the Unknown (ft Idina Menzel) (2019)"
 	},
 	{
-		pack : EN_2010_F_PACK_2,
+		pack : EN_2010_F_PACK_3,
 		group : 'Kiesza',
 		song : "Hideaway (2014)"
 	},
@@ -801,11 +803,77 @@ let en_2010_f = [
 		pack : EN_2010_F_PACK_2,
 		group : 'Iggy Azalea',
 		song : "Team (2016)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'Alexandra Stan',
+		song : "Mr Saxobeat (2010)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'Bishop Briggs',
+		song : "River (2016)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'Eva Simons',
+		song : "Policeman (2015)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'girl in red',
+		song : "We Fell In Love in October (2018)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'Grimes',
+		song : "Oblivion (2012)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'Marina and the Diamonds',
+		song : "Primadonna (2012)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'Melanie Martinez',
+		song : "Pity Party (2015)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'Normani',
+		song : "Motivation (2019)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'Poppy',
+		song : "Bloodmoney (2019)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'SZA',
+		song : "Supermodel (2017)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'WILLOW',
+		song : "Wait a Minute! (2015)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'Zara Larsson',
+		song : "Lush Life (2015)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'Zendaya',
+		song : "Butterflies (2013)"
 	}
 ];
 
 let en_2010_f_1 =	en_2010_f.filter(item => item.pack == 1);
 let en_2010_f_2 =	en_2010_f.filter(item => item.pack == 2);
+let en_2010_f_3 =	en_2010_f.filter(item => item.pack == 3);
 
 let music = [
 	{
@@ -821,6 +889,10 @@ let music = [
 				{
 					arr: en_2010_f_2,
 					name: 'EN 2010s Female: Younger',
+				},
+				{
+					arr: en_2010_f_3,
+					name: 'EN 2010s Female: 1-hit wonders',
 				}
 			]
 	}
