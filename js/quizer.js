@@ -868,6 +868,36 @@ let en_2010_f = [
 		pack : EN_2010_F_PACK_3,
 		group : 'Zendaya',
 		song : "Butterflies (2013)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'Bella Poarch',
+		song : "Build a Bitch (2021)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'Elley Duhé',
+		song : "MIDDLE OF THE NIGHT (2020)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'GAYLE',
+		song : "abcdefu (2021)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'Gracie Abrams',
+		song : "I miss you, I’m sorry (2020)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'Leony',
+		song : "Remedy (2022)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'Rose',
+		song : "APT (ft Bruno Mars) (2024)"
 	}
 ];
 
