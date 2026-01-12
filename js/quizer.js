@@ -898,6 +898,11 @@ let en_2010_f = [
 		pack : EN_2010_F_PACK_3,
 		group : 'Rose',
 		song : "APT (ft Bruno Mars) (2024)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'Alice Merton',
+		song : "Roots (2016)"
 	}
 ];
 
