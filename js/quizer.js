@@ -397,7 +397,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Rihanna',
-		song : "Diamonds (2012)"
+		song : "Diamonds (2012)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_1,
@@ -903,6 +904,46 @@ let en_2010_f = [
 		pack : EN_2010_F_PACK_3,
 		group : 'Alice Merton',
 		song : "Roots (2016)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Pink',
+		song : "Try (2012)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Pink',
+		song : "Just Give Me a Reason (ft Nate Ruess) (2013)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Pink',
+		song : "What About Us (2017)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Lorde',
+		song : "Royals (2013)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Lorde',
+		song : "Team (2013)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Lorde',
+		song : "Green Light (2017)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Selena Gomez',
+		song : "Same Old Love (2015)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Rihanna',
+		song : "S&M (2011)"
 	}
 ];
 
