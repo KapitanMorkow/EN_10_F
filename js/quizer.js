@@ -944,6 +944,11 @@ let en_2010_f = [
 		pack : EN_2010_F_PACK_1,
 		group : 'Rihanna',
 		song : "S&M (2011)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Charli XCX',
+		song : "Boom Clap (2014)"
 	}
 ];
 
@@ -982,6 +987,7 @@ function map_songs(){
 	$('#mirror').hide();
 	$('#map').hide();
 	$('#package_content').hide();
+	$('#sec_15').show();
 	$('#mapping_content').show();
 	toggleLearn();
 	for(var j=0; j < music.length; j++){
