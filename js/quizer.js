@@ -818,7 +818,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_3,
 		group : 'Eva Simons',
-		song : "Policeman (2015)"
+		song : "Policeman (2015)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_3,
@@ -848,7 +849,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_3,
 		group : 'Poppy',
-		song : "Bloodmoney (2019)"
+		song : "Bloodmoney (2019)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_3,
@@ -858,7 +860,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_3,
 		group : 'WILLOW',
-		song : "Wait a Minute! (2015)"
+		song : "Wait a Minute! (2015)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_3,
@@ -873,7 +876,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_3,
 		group : 'Bella Poarch',
-		song : "Build a Bitch (2021)"
+		song : "Build a Bitch (2021)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_3,
@@ -888,7 +892,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_3,
 		group : 'Gracie Abrams',
-		song : "I miss you, I’m sorry (2020)"
+		song : "I miss you, I’m sorry (2020)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_3,
@@ -987,7 +992,7 @@ function map_songs(){
 	$('#mirror').hide();
 	$('#map').hide();
 	$('#package_content').hide();
-	$('#sec_15').show();
+	$('#sec_15_hist').show();
 	$('#mapping_content').show();
 	toggleLearn();
 	for(var j=0; j < music.length; j++){
@@ -1326,6 +1331,15 @@ function back_to_browser(){
 function back_to_current_pack(){
 	back = back_to_browser;
 	$('#mapping_content').hide();
+	$('#sec_15_hist').hide();
+	song_stop();
 	$('#map').show();
 	package_num(pack_num);
+}
+
+function song_stop() {
+	if(audio){
+		audio.pause();
+		audio = null;
+	}
 }
