@@ -954,6 +954,11 @@ let en_2010_f = [
 		pack : EN_2010_F_PACK_2,
 		group : 'Charli XCX',
 		song : "Boom Clap (2014)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'Imany',
+		song : "Don’t Be So Shy (2015)"
 	}
 ];
 
