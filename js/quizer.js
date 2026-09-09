@@ -959,6 +959,21 @@ let en_2010_f = [
 		pack : EN_2010_F_PACK_3,
 		group : 'Imany',
 		song : "Don’t Be So Shy (2015)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Meghan Trainor',
+		song : "All About That Bass (2014)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Meghan Trainor',
+		song : "Me Too (2016)"
+	},
+	{
+		pack : EN_2010_F_PACK_2,
+		group : 'Meghan Trainor',
+		song : "NO (2016)"
 	}
 ];
 
