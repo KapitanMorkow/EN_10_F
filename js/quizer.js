@@ -974,6 +974,11 @@ let en_2010_f = [
 		pack : EN_2010_F_PACK_2,
 		group : 'Meghan Trainor',
 		song : "NO (2016)"
+	},
+	{
+		pack : EN_2010_F_PACK_3,
+		group : 'Era Istrefi',
+		song : "BonBon (2016)"
 	}
 ];
 
