@@ -943,7 +943,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_1,
 		group : 'Selena Gomez',
-		song : "Same Old Love (2015)"
+		song : "Same Old Love (2015)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_1,
@@ -979,6 +980,11 @@ let en_2010_f = [
 		pack : EN_2010_F_PACK_3,
 		group : 'Era Istrefi',
 		song : "BonBon (2016)"
+	},
+	{
+		pack : EN_2010_F_PACK_1,
+		group : 'Selena Gomez',
+		song : "Love You Like a Love Song (ft The Scene) (2011)"
 	}
 ];
 
