@@ -485,7 +485,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Billie Eilish',
-		song : "Wish You Were Gay (2019)"
+		song : "Wish You Were Gay (2019)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_2,
@@ -521,7 +522,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Dua Lipa',
-		song : "Be the One (2015)"
+		song : "Be the One (2015)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_3,
@@ -541,7 +543,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Ava Max',
-		song : "Alone Pt. II (ft Alan Walker) (2019)"
+		song : "Alone Pt. II (ft Alan Walker) (2019)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_2,
@@ -582,7 +585,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Carly Rae Jepsen',
-		song : "Drive (2012)"
+		song : "Drive (2012)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_2,
@@ -602,7 +606,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Ellie Goulding',
-		song : "Your Song (2010)"
+		song : "Your Song (2010)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_2,
@@ -612,7 +617,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Halsey',
-		song : "Bad at Love (2017)"
+		song : "Bad at Love (2017)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_2,
@@ -622,7 +628,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Rita Ora',
-		song : "I Will Never Let You Down (2014)"
+		song : "I Will Never Let You Down (2014)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_2,
@@ -652,7 +659,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Cardi B',
-		song : "Please Me (2019)"
+		song : "Please Me (2019)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_2,
@@ -678,7 +686,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Camila Cabello',
-		song : "Bad Things (ft Machine Gun Kelly) (2016)"
+		song : "Bad Things (ft Machine Gun Kelly) (2016)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_1,
@@ -698,32 +707,37 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Sabrina Carpenter',
-		song : "Thumbs (2017)"
+		song : "Thumbs (2017)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Sabrina Carpenter',
-		song : "Sue Me (2018)"
+		song : "Sue Me (2018)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Sabrina Carpenter',
-		song : "Why (2017)"
+		song : "Why (2017)",
+		ignore : true
 	},
 	{
-		pack : EN_2010_F_PACK_2,
+		pack : EN_2010_F_PACK_3,
 		group : 'Aurora',
 		song : "Runaway (2015)"
 	},
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Aurora',
-		song : "Running with the Wolves (2015)"
+		song : "Running with the Wolves (2015)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Aurora',
-		song : "Into the Unknown (ft Idina Menzel) (2019)"
+		song : "Into the Unknown (ft Idina Menzel) (2019)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_3,
@@ -738,7 +752,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Tove Lo',
-		song : "Talking Body (2015)"
+		song : "Talking Body (2015)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_2,
@@ -758,12 +773,14 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Jessie J',
-		song : "Flashlight (2015)"
+		song : "Flashlight (2015)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Nicki Minaj',
-		song : "Super Bass (2011)"
+		song : "Super Bass (2011)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_1,
@@ -773,7 +790,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Ariana Grande',
-		song : "bloodline (2019)"
+		song : "bloodline (2019)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_2,
@@ -793,7 +811,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Iggy Azalea',
-		song : "Black Widow (ft Rita Ora) (2014)"
+		song : "Black Widow (ft Rita Ora) (2014)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_2,
@@ -933,7 +952,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Lorde',
-		song : "Team (2013)"
+		song : "Team (2013)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_2,
@@ -974,7 +994,8 @@ let en_2010_f = [
 	{
 		pack : EN_2010_F_PACK_2,
 		group : 'Meghan Trainor',
-		song : "NO (2016)"
+		song : "NO (2016)",
+		ignore : true
 	},
 	{
 		pack : EN_2010_F_PACK_3,
